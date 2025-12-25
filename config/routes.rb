@@ -13,6 +13,6 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   # GET about
-  get "about-us" => "about#index", as: :about
+  get "about" => "about#index", as: :about
   root to: "home#index"
 end
